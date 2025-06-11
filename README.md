@@ -43,14 +43,20 @@ Input Layer (40 MFCCs, reshaped to 40×1)
 → Dense (64, ReLU)
 → Dropout (0.2)
 → Dense (7, Softmax)
-# Speech-Emmotion-Recognition
+
+---
 
 ## Performance
 Training Accuracy: ~85%.
+
 Validation Accuracy: ~80.7%.
+
 Trained over 50 epochs using an 80-20 train-test split.
 
+---
 ## Results Visualization
 Accuracy vs Epochs plot.
+
 Validation vs Training curve.
+
 Sample audio playback and emotion prediction.
