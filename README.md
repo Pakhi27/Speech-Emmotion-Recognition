@@ -54,6 +54,11 @@ Validation Accuracy: ~80.7%.
 Trained over 50 epochs using an 80-20 train-test split.
 
 ---
+
+## Deployment
+
+The trained model is deployed on Hugging Face Spaces using Gradio for real-time audio inference, allowing users to upload speech clips and get immediate emotion predictions.
+
 ## Results Visualization
 Accuracy vs Epochs plot.
 
